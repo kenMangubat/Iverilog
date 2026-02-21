@@ -1,0 +1,110 @@
+$date
+	Fri Feb 13 21:04:17 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module example7TestBench $end
+$var wire 1 ! Y1 $end
+$var wire 1 " f $end
+$var wire 1 # e $end
+$var wire 1 $ d $end
+$var wire 1 % c $end
+$var wire 1 & b $end
+$var wire 1 ' a $end
+$var wire 1 ( Y2 $end
+$scope module DUT $end
+$var wire 1 ) Y $end
+$var wire 1 ! Y1 $end
+$var wire 1 ( Y2 $end
+$var wire 1 " f $end
+$var wire 1 # e $end
+$var wire 1 $ d $end
+$var wire 1 % c $end
+$var wire 1 & b $end
+$var wire 1 ' a $end
+$var wire 3 * T [1:3] $end
+$upscope $end
+$scope module GEN $end
+$var reg 1 ' a $end
+$var reg 1 & b $end
+$var reg 1 % c $end
+$var reg 1 $ d $end
+$var reg 1 # e $end
+$var reg 1 " f $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b101 *
+1)
+0(
+0'
+0&
+0%
+0$
+0#
+0"
+z!
+$end
+#10
+1"
+#20
+0)
+b111 *
+0"
+1#
+#30
+1(
+b110 *
+1"
+#40
+0(
+b111 *
+0"
+0#
+1$
+#50
+1(
+b110 *
+1"
+#60
+0(
+b111 *
+0"
+1#
+#70
+1(
+b110 *
+1"
+#80
+0(
+b111 *
+0"
+0#
+0$
+1%
+#90
+1(
+b110 *
+1"
+#100
+0(
+b11 *
+1#
+1&
+#110
+1(
+b110 *
+0#
+1$
+0&
+1'
+#120

@@ -1,0 +1,57 @@
+$date
+	Fri Feb 06 13:28:56 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module SW_PracticeTestBench $end
+$var wire 1 ! wS0 $end
+$var wire 1 " wC1 $end
+$var wire 1 # wC $end
+$var wire 1 $ wB $end
+$var wire 1 % wA $end
+$scope module sc1 $end
+$var wire 1 " C1 $end
+$var wire 1 ! S0 $end
+$var wire 7 & N [1:7] $end
+$var wire 1 # C0 $end
+$var wire 1 $ B0 $end
+$var wire 1 % A0 $end
+$upscope $end
+$scope module scg1 $end
+$var reg 1 % A0 $end
+$var reg 1 $ B0 $end
+$var reg 1 # C0 $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b1110010 &
+0%
+0$
+0#
+0"
+0!
+$end
+#3
+1"
+0!
+b101101 &
+1#
+1%
+#6
+b10001 &
+0#
+1$
+#9
+b101101 &
+1#
+0%
+#12

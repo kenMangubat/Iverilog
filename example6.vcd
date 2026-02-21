@@ -1,0 +1,49 @@
+$date
+	Fri Feb 13 20:32:37 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module example6TestBench $end
+$var wire 1 ! Z $end
+$var wire 1 " B $end
+$var wire 1 # A $end
+$scope module DUT $end
+$var wire 1 ! Z $end
+$var wire 7 $ T [1:7] $end
+$var wire 1 " B $end
+$var wire 1 # A $end
+$upscope $end
+$scope module GEN $end
+$var reg 1 # A $end
+$var reg 1 " B $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b1100zzz $
+0#
+0"
+0!
+$end
+#3
+1!
+b1010zzz $
+1"
+#6
+1!
+b101zzz $
+0"
+1#
+#9
+0!
+b0zzz $
+1"
+#12
